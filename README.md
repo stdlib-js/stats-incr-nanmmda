@@ -185,7 +185,6 @@ console.log( accumulator() );
 
 <section class="related">
 
-
 </section>
 
 <!-- /.related -->
@@ -267,7 +266,6 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
 
 [@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
-
 
 </section>
 
