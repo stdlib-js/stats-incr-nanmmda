@@ -58,14 +58,32 @@ where `f_i` is the forecast value, `a_i` is the actual value, `sgn(x)` is the [s
 
 <!-- /.intro -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr-nanmmda
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import incrnanmmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmda@deno/mod.js';
+var incrnanmmda = require( '@stdlib/stats-incr-nanmmda' );
 ```
 
 #### incrnanmmda( window )
@@ -138,9 +156,9 @@ m = accumulator();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@deno/mod.js';
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrnanmmda from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmda@deno/mod.js';
+var bernoulli = require( '@stdlib/random-base-bernoulli' );
+var randu = require( '@stdlib/random-base-randu' );
+var incrnanmmda = require( '@stdlib/stats-incr-nanmmda' );
 
 var accumulator;
 var v1;
@@ -167,7 +185,6 @@ console.log( accumulator() );
 
 <section class="related">
 
-
 </section>
 
 <!-- /.related -->
@@ -181,7 +198,7 @@ console.log( accumulator() );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -246,10 +263,9 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [mean-directional-accuracy]: https://en.wikipedia.org/wiki/Mean_Directional_Accuracy_%28MDA%29
 
-[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum/tree/deno
+[@stdlib/math/base/special/signum]: https://github.com/stdlib-js/math-base-special-signum
 
-[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta/tree/deno
-
+[@stdlib/math/base/special/kronecker-delta]: https://github.com/stdlib-js/math-base-special-kronecker-delta
 
 </section>
 
